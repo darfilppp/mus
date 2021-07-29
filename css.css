@@ -1,0 +1,113 @@
+* {
+
+}
+
+body {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.background {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1000px;
+}
+
+.container {
+    margin: auto; /*автоматическое выравнивание по середине*/
+    max-width: 1146px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 76px;
+}
+
+
+.name {
+    font-family: 'Forum', cursive;
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.logo {
+    margin-right: 21px;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin: 0;
+}
+
+.link-menu {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+.main-text {
+    max-width: 598px;
+}
+
+.text-welcome {
+    font-family: 'Forum', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.text-museum {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 26px;
+    font-size: 28px;
+    padding-top: 26px;
+    padding-bottom: 76px;
+    letter-spacing: 2px;
+}
+
+.button-primary {
+    background: #710707;
+    border-radius: 10px;
+    width: 360px;
+    height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+}
+
+
+.button-discover {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    align-items: center;
+
+}
